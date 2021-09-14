@@ -1,0 +1,19 @@
+1. mkdir ZeldaSibuea
+2. $ cd Zelda Sibuea
+   	$ mkdir sekolah
+   	$ mkdir kerja
+3. $ cd sekolah
+      $ touch ijazah.txt
+      $ nano ijazah.txt
+      $ cat ijazah.txt
+      $ touch portofolio.txt
+      $ nano portofolio.txt
+
+4. $ cd ..
+5. $ cd kerja
+       $ touch cv.txt
+       $ nano cv.txt
+       $ cat cv.txt
+6. $ cd ..
+   $ cd sekolah
+   $ mv portofolio.txt ../kerja
