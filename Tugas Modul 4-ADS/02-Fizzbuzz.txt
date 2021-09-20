@@ -8,7 +8,7 @@ FIZZBUZZ
    	DISPLAY "The minimum value is 1" 
    
 5.    ELSE  
-        FOR every i starts from 1 until N
+        FOR every i starts from 1 until N, i plus 1
 
 6.       IF (i % 3 = 0) THEN
            DISPLAY "Fizz"
