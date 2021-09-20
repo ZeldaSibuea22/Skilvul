@@ -19,5 +19,5 @@ Thermometer
   ELSE
       DISPLAY "Temperature type is not available"
 
-7. END
+6. END
     
