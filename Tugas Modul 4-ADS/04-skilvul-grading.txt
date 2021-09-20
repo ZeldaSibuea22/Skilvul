@@ -1,0 +1,20 @@
+Skilvul-grading :
+
+1. BEGIN
+2. STORE "nilai_awal" with any value
+3. STORE "nilai_akhir" without any value
+
+4. IF "nilai_awal" < 68 THEN
+      SET "nilai_akhir" with "nilai_awal"
+   
+5. ELSE IF (("nilai_awal" + 1) % 5 = 0)
+	SET "nilai_akhir" with "nilai_awal" + 1
+
+7.  ELSE IF (("nilai_awal" + 2) % 5 = 0)
+        SET "nilai_akhir" with "nilai_awal" + 2
+8.   ELSE 
+        SET "nilai_akhir" WITH "nilai_awal"
+
+9. DISPLAY "nilai_akhir"
+
+10. END

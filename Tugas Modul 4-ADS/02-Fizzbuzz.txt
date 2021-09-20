@@ -1,0 +1,24 @@
+FIZZBUZZ
+
+1.BEGIN
+2. STORE "N" with any value
+3. STORE "i" with 1
+
+4. IF "N" is LESS THAN 1
+   	DISPLAY "The minimum value is 1" 
+   
+5.    ELSE  
+        FOR every i starts from 1 until N
+
+6.       IF (i % 3 = 0) THEN
+           DISPLAY "Fizz"
+7.       ELSE IF (i % 5 = 0) THEN
+           DISPLAY "Buzz"
+8.       ELSE IF (i%3 = 0 AND N%5 = 0) THEN
+           DISPLAY "FizzBuzz"
+9.       ELSE
+           DISPLAY "i"
+
+10.      ENDIF
+11.    ENDFOR
+12.  END

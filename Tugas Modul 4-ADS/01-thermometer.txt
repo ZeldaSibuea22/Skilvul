@@ -1,0 +1,23 @@
+Thermometer 
+
+1. BEGIN
+2. STORE "Temperatur" AS INTEGER With any value
+3. STORE "Temperatur_type" AS STRING with any value
+4. STORE "Result" without any value
+
+5. IF "Temperatur_type" EQUALS "celcius"
+         SET "Temperatur" value with "Result"
+         DISPLAY "Result"
+   
+  ELSE IF "Temperatur_type" EQUALS "farenheit"
+           CALCULATE "Result" <- ((Temperatur - 32) * (5/9))
+           DISPLAY "Result"
+
+ ELSE IF "Temperatur_type" EQUALS "kelvin"
+           CALCULATE "Result" <- (Temperatur - 273.15)
+           DISPLAY "Result"
+  ELSE
+      DISPLAY "Temperature type is not available"
+
+7. END
+    
