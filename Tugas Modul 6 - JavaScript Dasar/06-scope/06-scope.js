@@ -42,10 +42,13 @@ function simpleFunction(){
 /// WRITE YOUR ANALYSIS HERE
 /*
  1. apa yang akan tampil didalam comsole.log ? 
-    Mariah
+    - Mariah
   
  2. apa alasan yang menyebabkan hasil dari console itu bukan nilai dari variable name?
-    karena local variable akan di prioritaskan.
+    - karena local variable akan di prioritaskan.
+    -  Karena yang akan ditampilkan oleh console.log adalah fungsi printFirstName()
+    yang disertai dengan value dalam parameter yaitu "Mariah Carey" yang termasuk local variable,
+    maka dari itu yang akan dieksekusi adalah "Mariah Carey".
 */
 const name = "John Watson";
 
